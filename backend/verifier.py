@@ -39,6 +39,7 @@ def parse_details(text):
     # Clean text
     text = text.replace('\r', '\n').replace('\u00A0', ' ')
     lines = [line.strip() for line in text.split('\n') if line.strip()]
+    print(text)
 
     details = {
         "roll_no": None,
