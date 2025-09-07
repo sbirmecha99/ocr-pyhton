@@ -1,0 +1,6 @@
+fastapi
+pydantic
+numpy
+Pillow
+pytesseract
+scikit-image
